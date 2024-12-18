@@ -45,7 +45,7 @@ export class GameService {
   private readonly INITIAL_PLAYER_MASS = 2000;
   private readonly INITIAL_BOT_COUNT = 15;
   private readonly FOOD_COUNT = 2000;
-  private readonly PLAYER_AVATAR = 'assets/images/player-avatar.svg';
+  private readonly PLAYER_AVATAR = 'assets/images/drawing_myself.webp';
   private readonly NEON_COLORS = [
     { main: '#ff00ff', glow: '#ff00ff80' }, // Magenta
     { main: '#00ffff', glow: '#00ffff80' }, // Cyan
