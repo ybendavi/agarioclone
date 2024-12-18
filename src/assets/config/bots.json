@@ -1,0 +1,86 @@
+{
+  "bots": [
+    {
+      "id": 1,
+      "level": 5,
+      "mass": 100,
+      "color": "#ff00ff",
+      "name": "42/Piscine C",
+      "description": "Exament d'entrée de 42"
+    },
+    {
+      "id": 2,
+      "level": 10,
+      "mass": 150,
+      "color": "#00ffff",
+      "name": "42/Libft",
+      "description": "Implémentation de la librairie C"
+    },
+    {
+      "id": 3,
+      "level": 15,
+      "mass": 150,
+      "color": "#33ff33",
+      "name": "42/Get_next_line",
+      "description": "Implémentation de la fonction Get_next_line en C"
+    },
+    {
+      "id": 4,
+      "level": 20,
+      "mass": 150,
+      "color": "#ff33ff",
+      "name": "42/ft_Printf",
+      "description": "Implémentation de la fonction Printf en C"
+    },
+    {
+      "id": 5,
+      "level": 25,
+      "mass": 150,
+      "color": "#ff33ff",
+      "name": "42/Netwhat",
+      "description": "Apprentissage du réseau"
+    },
+    {
+      "id": 6,
+      "level": 30,
+      "mass": 150,
+      "color": "#ff33ff",
+      "name": "42/pipex",
+      "description": "Implémentation d'un programme pipe en C"
+    },
+    {
+      "id": 7,
+      "level": 35,
+      "mass": 150,
+      "color": "#ff33ff",
+      "name": "42/Push_swap",
+      "description": "Implémentation d'algorithme de tri en C"
+    },
+    {
+      "id": 8,
+      "level": 40,
+      "mass": 150,
+      "color": "#ff33ff",
+      "name": "42/FDF",
+      "description": "Implémentation de rendu 3D en C"
+    },
+    {
+      "id": 9,
+      "level": 45,
+      "mass": 150,
+      "color": "#ff33ff",
+      "name": "42/Philosophers",
+      "description": "Implémentation de multithread en C"
+    },
+    {
+      "id": 10,
+      "level": 50,
+      "mass": 700,
+      "color": "#ff33ff",
+      "name": "42/Minishell",
+      "description": "Implémentation de shell en C"
+    }
+    
+    
+  ]
+}
