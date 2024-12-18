@@ -2,85 +2,122 @@
   "bots": [
     {
       "id": 1,
-      "level": 5,
-      "mass": 100,
+      "mass": 50,
       "color": "#ff00ff",
       "name": "42/Piscine C",
       "description": "Exament d'entrée de 42"
     },
     {
       "id": 2,
-      "level": 10,
-      "mass": 150,
+      "mass": 75,
       "color": "#00ffff",
       "name": "42/Libft",
       "description": "Implémentation de la librairie C"
     },
     {
       "id": 3,
-      "level": 15,
-      "mass": 150,
-      "color": "#33ff33",
+      "mass": 125,
+      "color": "#ff3366",
       "name": "42/Get_next_line",
       "description": "Implémentation de la fonction Get_next_line en C"
     },
     {
       "id": 4,
-      "level": 20,
-      "mass": 150,
-      "color": "#ff33ff",
+      "mass": 200,
+      "color": "#33ff33",
       "name": "42/ft_Printf",
       "description": "Implémentation de la fonction Printf en C"
     },
     {
       "id": 5,
-      "level": 25,
-      "mass": 150,
-      "color": "#ff33ff",
+      "mass": 350,
+      "color": "#3366ff",
       "name": "42/Netwhat",
       "description": "Apprentissage du réseau"
     },
     {
       "id": 6,
-      "level": 30,
-      "mass": 150,
-      "color": "#ff33ff",
+      "mass": 600,
+      "color": "#ff9933",
       "name": "42/pipex",
       "description": "Implémentation d'un programme pipe en C"
     },
     {
       "id": 7,
-      "level": 35,
-      "mass": 150,
+      "mass": 1000,
       "color": "#ff33ff",
       "name": "42/Push_swap",
       "description": "Implémentation d'algorithme de tri en C"
     },
     {
       "id": 8,
-      "level": 40,
-      "mass": 150,
-      "color": "#ff33ff",
+      "mass": 1600,
+      "color": "#33ffff",
       "name": "42/FDF",
       "description": "Implémentation de rendu 3D en C"
     },
     {
       "id": 9,
-      "level": 45,
-      "mass": 150,
-      "color": "#ff33ff",
+      "mass": 2500,
+      "color": "#ffff33",
       "name": "42/Philosophers",
       "description": "Implémentation de multithread en C"
     },
     {
       "id": 10,
-      "level": 50,
-      "mass": 700,
-      "color": "#ff33ff",
+      "mass": 4000,
+      "color": "#ff3333",
       "name": "42/Minishell",
       "description": "Implémentation de shell en C"
+    },
+    {
+      "id": 11,
+      "mass": 6000,
+      "color": "#33ff99",
+      "name": "Bot 11",
+      "description": "Description 11"
+    },
+    {
+      "id": 12,
+      "mass": 9000,
+      "color": "#9933ff",
+      "name": "Bot 12",
+      "description": "Description 12"
+    },
+    {
+      "id": 13,
+      "mass": 13000,
+      "color": "#ff99ff",
+      "name": "Bot 13",
+      "description": "Description 13"
+    },
+    {
+      "id": 14,
+      "mass": 18000,
+      "color": "#99ff33",
+      "name": "Bot 14",
+      "description": "Description 14"
+    },
+    {
+      "id": 15,
+      "mass": 25000,
+      "color": "#3399ff",
+      "name": "Bot 15",
+      "description": "Description 15"
+    },
+    {
+      "id": 16,
+      "mass": 35000,
+      "color": "#ff6633",
+      "name": "Bot 16",
+      "description": "Description 16"
+    },
+    {
+      "id": 17,
+      "mass": 50000,
+      "color": "#ff33cc",
+      "name": "Bot 17",
+      "description": "Description 17"
     }
-    
-    
   ]
 }

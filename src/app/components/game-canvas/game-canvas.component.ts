@@ -5,7 +5,6 @@ interface GameState {
   player: Cell | null;
   bots: Cell[];
   food: Cell[];
-  viruses: Cell[];
   map: GameMap;
   gameOver: boolean;
   score: number;
@@ -164,7 +163,6 @@ export class GameCanvasComponent implements OnInit, AfterViewInit {
     player: null,
     bots: [],
     food: [],
-    viruses: [],
     map: {
       width: 0,
       height: 0,
@@ -289,7 +287,6 @@ export class GameCanvasComponent implements OnInit, AfterViewInit {
 
     // Draw game elements
     this.drawFood();
-    this.drawViruses();
     this.drawBots();
     if (this.currentGameState.player) {
       this.drawCell(this.currentGameState.player);
@@ -584,21 +581,6 @@ export class GameCanvasComponent implements OnInit, AfterViewInit {
       this.ctx.arc(food.x, food.y, food.radius, 0, Math.PI * 2);
       this.ctx.fillStyle = food.color;
       this.ctx.fill();
-      this.ctx.closePath();
-    });
-  }
-
-  private drawViruses(): void {
-    this.currentGameState.viruses.forEach((virus: Cell) => {
-      this.ctx.shadowColor = virus.glowColor || virus.color;
-      this.ctx.shadowBlur = 20;
-      this.ctx.beginPath();
-      this.ctx.arc(virus.x, virus.y, virus.radius, 0, Math.PI * 2);
-      this.ctx.fillStyle = virus.color;
-      this.ctx.fill();
-      this.ctx.strokeStyle = '#33ff3380';
-      this.ctx.lineWidth = 3;
-      this.ctx.stroke();
       this.ctx.closePath();
     });
   }
